@@ -28,7 +28,7 @@ scrapy crawl phones -a limit=10
 This will start the spider, which will scrape phone data from the target website and store it in the local MongoDB instance under the phone_data database in the phone_collection collection.
 
 
-Database Schema
+## Database Schema
 - 'product_name'
 - 'image_url'
 - 'brand' 
